@@ -1,5 +1,4 @@
 ## React Practice Projects
----
 
 File Name  | Project info
 ------------- | -------------
