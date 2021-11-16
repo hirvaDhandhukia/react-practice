@@ -1,10 +1,8 @@
-# tour
+# Tour
 
 ### `Live site: `https://g80lg.csb.app/
----
 
 ## Things i learned here
-
 1. Read More and Less function
 2. To handle ids
 3. To transfer a function within files
