@@ -18,6 +18,17 @@ const Review = () => {
         <h4 className="author">{name}</h4>
         <p className="job">{job}</p>
         <p className="info">{text}</p>
+
+        <div className="button-container">
+            <button className="prev-btn" >
+                <FaChevronLeft />
+            </button>
+
+            <button className="next-btn" >
+                <FaChevronRight />
+            </button>
+        </div>
+        <button className="random-btn" >random review</button>
     </article>;
 };
 
