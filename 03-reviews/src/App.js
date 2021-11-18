@@ -1,10 +1,18 @@
 import './App.css';
+import Review from "./Review";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello to new project</h1>
-    </div>
+    <main>
+      <section className="container">
+        <div className="title">
+          <h2>our reviews</h2>
+          <div className="underline"></div>
+        </div>
+        
+        <Review />
+      </section>
+    </main>
   );
 }
 
