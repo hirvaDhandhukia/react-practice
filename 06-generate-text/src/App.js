@@ -9,9 +9,11 @@ function App() {
 
     {/* input */}
       <div>
-        <p>Paragraphs:</p>
-        <input type="number" />
+        <form action="">
+        <label>Paragraphs:</label>
+        <input type="number"/>
         <button>GENERATE</button>
+      </form>
       </div>
 
     {/* output */}
