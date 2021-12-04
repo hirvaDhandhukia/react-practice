@@ -8,3 +8,4 @@ File Name  | Project info
 04-toggle | To show info only when clicked the btn
 05-menu   | Online menu of a restaurant
 06-text-generatinator | clone of lorem ipsum
+07-portfolio-generatinator  |  Generate a portfolio website 
