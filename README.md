@@ -7,3 +7,4 @@ File Name  | Project info
 03-review | Iterating left, right and randomly with a list of id's
 04-toggle | To show info only when clicked the btn
 05-menu   | Online menu of a restaurant
+06-text-generatinator | clone of lorem ipsum
