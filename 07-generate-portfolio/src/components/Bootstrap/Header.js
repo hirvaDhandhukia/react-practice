@@ -10,9 +10,11 @@ const Header = ({ dark, children, className, to, Link }) => {
       >
         {to ? (
           <Link to={to} className="navbar-brand">
+              {/* this is a prop, whatever you put inside the element will be passed here. */}
             {children}
           </Link>
         ) : (
+            // exporting the header
           <span className="navbar-brand">{children}</span>
         )}
       </nav>
