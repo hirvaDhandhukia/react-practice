@@ -13,6 +13,12 @@ class App extends Component {
     })
   }
 
+  changeHandler = (e) => {
+    this.setState({
+      Name: e.target.value
+    })
+  }
+
   render() {
     return (
       <div className="App">
@@ -40,6 +46,13 @@ class App extends Component {
           </button>
             </div>
           </div>
+        </div>
+
+        <div className="text-center">
+          <input type="text" className="form-control mt-3"
+            value = {this.state.Name}
+            onChange={this.changeHandler}
+          />
         </div>
       </div>
     );
