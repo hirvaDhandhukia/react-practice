@@ -13,13 +13,19 @@ function App() {
   const submitHandler = (e) => {
     // when we click the 'generate' btn, the text was setting itself back to 0; so using preventDefault function, we will be able to keep the output text as it is.
     e.preventDefault();
+    // console.log(typeof count);
+    // i get the count value here in number
     let amount = parseInt(count);
+    console.log(typeof amount);
     if(count <= 0) {
       amount = 1;
     } else if(count > 8) {
-      amount = 8;
+      amount = 9;
     }
+    // slice function will just give us the elements from '0' to 'amount' from the array of data (named text).
+    // slice returns a new copy of array that starts from 0 to amount
     setText(data.slice(0,amount));
+    // setText(data);
   };
 
   return (
