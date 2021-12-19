@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header dark={this.state.Dark} className="mb-5 justify-content-center">
+        <Header dark={this.state.Dark} className="Header">
           <span>Portfolio Generatinator</span>
           {/* <button 
                 className={`btn btn${
