@@ -3,32 +3,28 @@ import Header from "./Bootstrap/Header";
 
 class App extends Component {
   state = {
-    Dark: false
+    Dark: true
   };
 
   // toggle to dark and light modes
   toggleHeader = () => {
     this.setState({
       Dark: !this.state.Dark
-    })
-  }
+    });
+  };
 
   changeHandler = (e) => {
     this.setState({
       Name: e.target.value
-    })
-  }
+    });
+  };
 
   render() {
     return (
       <div className="App">
-        <Header dark={this.state.Dark} className="mb-4">Portfolio Generatinator</Header>
-        
-        {/* .container>.row>.col-12.text-center */}
-        <div className="container">
-          <div className="row">
-            <div className="col-12 text-center">
-              {/* <button 
+        <Header dark={this.state.Dark} className="mb-5 justify-content-center">
+          <span>Portfolio Generatinator</span>
+          {/* <button 
                 className={`btn btn${
                   this.state.Dark ? "-outline" : ""
                 }-primary`}
@@ -37,23 +33,26 @@ class App extends Component {
                   Toggle Dark Mode
               </button> */}
               <button
-            className="btn btn-sm btn-outline-primary rounded-circle"
-            onClick={this.toggleHeader}
-          >
-            <i
-              className={"fa fa-" + (this.state.Dark ? "sun" : "moon") + "-o"}
-            ></i>
+                className="btn btn-sm btn-outline-primary rounded-circle"
+                onClick={this.toggleHeader}
+              >
+              <i
+                className={"fa fa-" + (this.state.Dark ? "sun" : "moon") + "-o"}
+              ></i>
           </button>
+        </Header>
+        
+        {/* .container-fluid>.row>.col-12.text-center */}
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-12 col-sm-6">
+            
             </div>
+
           </div>
         </div>
-
-        <div className="text-center">
-          <input type="text" className="form-control mt-3"
-            value = {this.state.Name}
-            onChange={this.changeHandler}
-          />
-        </div>
+        
+        
       </div>
     );
   }
