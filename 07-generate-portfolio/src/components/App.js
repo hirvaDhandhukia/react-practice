@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import Header from "./Bootstrap/Header";
+import Form from "./Form";
+import Code from "./Code";
 
 class App extends Component {
   state = {
@@ -20,6 +22,18 @@ class App extends Component {
   };
 
   render() {
+    const Data = {
+      FullName: "Value of FullName",
+      Thumbnail: "Value of Thumbnail",
+      URL: "Value of URL",
+      Description: "Value of Description",
+      KeyWords: "Value of KeyWords",
+      FirstName: "Value of FirstName",
+      LastName: "Value of LastName",
+      Address: "Value of Address",
+      Phone: "Value of Phone",
+      Email: "Value of Email"
+    };
     return (
       <div className="App">
         <Header dark={this.state.Dark} className="Header">
@@ -46,10 +60,11 @@ class App extends Component {
         <div className="container-fluid">
           <div className="row">
             <div className="col-12 col-sm-6">
-              Form
+              {/* calling the functional component */}
+              < Form />
             </div>
             <div className="col-12 col-sm-6">
-              Code
+              <Code {...Data} />
             </div>
           </div>
         </div>
@@ -61,3 +76,4 @@ class App extends Component {
 }
 
 export default App;
+//  {...Data} :- here ... is called the spread operator
