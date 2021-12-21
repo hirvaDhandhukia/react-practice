@@ -29,7 +29,11 @@ class App extends Component {
 
   changeHandler = (e) => {
     this.setState({
-      Name: e.target.value
+      // Name: e.target.value
+      FormData: {
+        ...this.state.FormData,
+        [e.target.name]: e.target.value
+      }
     });
   };
 
@@ -61,10 +65,19 @@ class App extends Component {
           <div className="row">
             <div className="col-12 col-sm-6">
               {/* calling the functional component */}
-              < Form FormData={this.state.FormData} />
+              < Form 
+                FormData={{
+                  FullName: `${this.state.FormData.FirstName} ${this.state.FormData.LastName}`,
+                  ...this.state.FormData
+                }}
+                onChange={this.changeHandler} 
+              />
             </div>
             <div className="col-12 col-sm-6">
-              <Code {...this.state.FormData} />
+              <Code 
+                FullName={`${this.state.FormData.FirstName} ${this.state.FormData.LastName}`}
+                {...this.state.FormData}
+              />
             </div>
           </div>
         </div>
