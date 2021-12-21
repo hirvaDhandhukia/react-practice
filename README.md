@@ -8,4 +8,4 @@ File Name  | Project info  | Links
 04-toggle | To show info only when clicked the btn  |  [↗](https://mmek2.csb.app/)
 05-menu   | Online menu of a restaurant  |  [↗](https://xkee7.csb.app/)
 06-text-generatinator | clone of lorem ipsum  |  [↗](https://text-generatinator-hirva.netlify.app/)
-07-portfolio-generatinator  |  Generate a portfolio website  | 
+07-portfolio-generatinator  |  Generate a portfolio website  | [↗](https://portfolio-generatinator-hirva.netlify.app/)
