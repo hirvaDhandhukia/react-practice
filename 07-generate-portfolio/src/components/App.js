@@ -5,7 +5,19 @@ import Code from "./Code";
 
 class App extends Component {
   state = {
-    Dark: true
+    Dark: true,
+    FormData: {
+      FullName: "Value of FullName",
+      Thumbnail: "Value of Thumbnail",
+      URL: "Value of URL",
+      Description: "Value of Description",
+      KeyWords: "Value of KeyWords",
+      FirstName: "Value of FirstName",
+      LastName: "Value of LastName",
+      Address: "Value of Address",
+      Phone: "Value of Phone",
+      Email: "Value of Email"
+    }
   };
 
   // toggle to dark and light modes
@@ -22,18 +34,6 @@ class App extends Component {
   };
 
   render() {
-    const Data = {
-      FullName: "Value of FullName",
-      Thumbnail: "Value of Thumbnail",
-      URL: "Value of URL",
-      Description: "Value of Description",
-      KeyWords: "Value of KeyWords",
-      FirstName: "Value of FirstName",
-      LastName: "Value of LastName",
-      Address: "Value of Address",
-      Phone: "Value of Phone",
-      Email: "Value of Email"
-    };
     return (
       <div className="App">
         <Header dark={this.state.Dark} className="Header">
@@ -61,10 +61,10 @@ class App extends Component {
           <div className="row">
             <div className="col-12 col-sm-6">
               {/* calling the functional component */}
-              < Form />
+              < Form FormData={this.state.FormData} />
             </div>
             <div className="col-12 col-sm-6">
-              <Code {...Data} />
+              <Code {...this.state.FormData} />
             </div>
           </div>
         </div>
