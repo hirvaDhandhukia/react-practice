@@ -7,16 +7,15 @@ class App extends Component {
   state = {
     Dark: true,
     FormData: {
-      FullName: "Value of FullName",
-      Thumbnail: "Value of Thumbnail",
-      URL: "Value of URL",
-      Description: "Value of Description",
-      KeyWords: "Value of KeyWords",
-      FirstName: "Value of FirstName",
-      LastName: "Value of LastName",
-      Address: "Value of Address",
-      Phone: "Value of Phone",
-      Email: "Value of Email"
+      FirstName: "Dr. Heinz",
+      LastName: "Doofenshmirtz",
+      Thumbnail: "https://tvline.com/wp-content/uploads/2013/05/sharktank_drdoof_300.jpg?w=300",
+      URL: "https://phineasandferb.fandom.com/wiki/Heinz_Doofenshmirtz",
+      Description: "I am the head of Doofenshmirtz Evil Incorporated. Despite true dedication to my missions, almost all of my plans and inators have been thwarted by my nemesis Perry the Platypus. Though most of my plans are frequently flawful at best and my doctorate was purchased off the internet, some of my inventions (almost always suffixed with '-inator') have been fairly impressive and successful.",
+      KeyWords: "Evil Science, Scientist, Inator, Cartoon, Phineas and Ferb",
+      Address: "Doofenshmirtz Evil Incorporated, Tri-State Area, 9297 Polly Parkway",
+      Phone: "911-Evil-101",
+      Email: "doofenshmirtz@inator.com"
     }
   };
 

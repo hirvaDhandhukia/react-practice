@@ -50,7 +50,7 @@ const Code = ({
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">${FullName}</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://images.pexels.com/photos/10220117/pexels-photo-10220117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="${FullName}" /></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="${Thumbnail}" alt="${FullName}" /></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -77,7 +77,10 @@ const Code = ({
                         ${Address} &bull; ${Phone} &bull;
                         <a href="mailto:${Email}">${Email}</a>
                     </div>
-                    <p class="lead mb-5">${Description}</p>
+                    <p class="lead mb-5">
+                        ${Description} <br>
+                        <b>Key-Words:</b> ${KeyWords}
+                    </p>
                     <div class="social-icons">
                         <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>

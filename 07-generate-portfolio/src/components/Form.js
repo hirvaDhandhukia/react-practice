@@ -7,17 +7,17 @@ const Form = ({ FormData, onChange }) => {
         FullName: [
             "text",
             "Full Name",
-            "This is your full name. It is generated from your first and last names."
+            // "This is your full name. It is generated from your first and last names."
         ],
         FirstName: [
             "text",
             "First Name",
-            "Please enter your first name here."
+            // "Please enter your first name here."
         ],
         LastName: [
             "text",
             "Last Name",
-            "Please enter your surname here."
+            // "Please enter your surname here."
         ],
         Thumbnail: [
             "text",
@@ -32,7 +32,7 @@ const Form = ({ FormData, onChange }) => {
         Description: [ 
             "text",
             "About you",
-            "introduce yourself"
+            // "introduce yourself"
         ],
         KeyWords: [
             "text",
@@ -42,17 +42,17 @@ const Form = ({ FormData, onChange }) => {
         Address: [  
             "text",
             "Address",
-            "Type in your full address here."
+            // "Type in your full address here."
         ],
         Phone: [
             "text",
             "Phone Number",
-            "enter your contact number."
+            // "enter your contact number."
         ],
         Email: [
             "email",
             "Email Address",
-            "Enter your email address for contacting you."
+            // "Enter your email address for contacting you."
         ]
     };
 
