@@ -15,7 +15,67 @@ class App extends Component {
       KeyWords: "Evil Science, Scientist, Inator, Cartoon, Phineas and Ferb",
       Address: "Doofenshmirtz Evil Incorporated, Tri-State Area, 9297 Polly Parkway",
       Phone: "911-Evil-101",
-      Email: "doofenshmirtz@inator.com"
+      Email: "doofenshmirtz@inator.com",
+      Socials: {
+        Linkedin: "https://www.linkedin.com/in/hirva-dhandhukia-9415231a0/",
+        Github: "https://github.com/hirvaDhandhukia",
+        Twitter: "Doofenshmirtz",
+        Facebook: "Doofenshmirtz",
+        Codesandbox: "https://codesandbox.io/u/hirva.dhandhukia",
+        StackOverflow: "123456789"
+      },
+      // Evil Scientist (during the show until Last Day of Summer)
+      // Businessman
+      // O.W.C.A. agent (temporarily in "Agent Doof" and "O.W.C.A. Files")
+      // Acting Mayor of Danville (temporarily in "The Beak")
+      // Science Teacher at Danville High (currently)
+      Experience: [
+        {
+          Role: "Evil Scientist - CEO",
+          Company: "Doofenshmirtz Evil Incorporated",
+          Desc: "Making my inators, Curse you Perry the Platypus",
+          Start: "yo",
+          End: "today"
+        },
+        {
+          Role: "O.W.C.A. agent",
+          Company: "Agent Doof",
+          Desc: "I'm an agent too",
+          Start: "it was sadly temporary",
+          End: "yesterday"
+        }
+      ], 
+      Education: [
+        {
+          Degree: "Evil Science",
+          Institute: "Online degree purchase hehee",
+          Desc: "",
+          Start: "_",
+          End: "_"
+        }
+      ], 
+      Skills : {
+        Tools: ["Inator making", "html5", "css3", "react"],
+        Workflow: [
+          "Mobile-First, Responsive Design",
+          "Cross Browser Testing & Debugging",
+          "Cross Functional Teams",
+          "Agile Development & Scrum"
+        ]
+      }, 
+      Interests: [
+        "Inventing Inators",
+        "Finding financial funding and partnership for new inventions"
+      ],
+      Awards: [
+        "Google Analytics Certified Developer",
+        "Mobile Web Specialist - Google Certification",
+        "1 st Place - University of Colorado Boulder - Emerging Tech Competition 2009",
+        "1 st Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)",
+        "2 nd Place - University of Colorado Boulder - Emerging Tech Competition 2008",
+        "1 st Place - James Buchanan High School - Hackathon 2006",
+        "3 rd Place - James Buchanan High School - Hackathon 2005"
+      ]
     }
   };
 
