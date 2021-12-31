@@ -1,5 +1,7 @@
 # Portfolio Generatinator
 
+![Work In Progress](img/wip.jpg)
+
 ### `Live site: ` https://portfolio-generatinator-hirva.netlify.app/
 
 ## Things i learned here
