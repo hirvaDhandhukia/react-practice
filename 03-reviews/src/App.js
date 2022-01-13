@@ -10,6 +10,7 @@ function App() {
           <div className="underline"></div>
         </div>
         
+        {/* created the working of whole review section in an another functional component and called it here to show on the page */}
         <Review />
       </section>
     </main>

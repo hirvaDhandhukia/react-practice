@@ -4,6 +4,7 @@ import { FaChevronLeft, FaChevronRight, FaQuoteRight} from 'react-icons/fa';
 
 
 const Review = () => {
+    // initially keeping index to 0 for showing Harry's review. we can change it to any id we want
     const [index, setIndex] = useState(0);
     const {name, job, image, text} = people[index];
 

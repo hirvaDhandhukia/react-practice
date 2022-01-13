@@ -11,7 +11,9 @@ function App() {
       <main>
         <section className="container">
           <h3>{people.length} birthdays today</h3>
+          {/* printing the list of people (i.e. dumping data.js) here */}
           <List people={people} />
+          {/* we setPeople into an empty array when the button is clicked */}
           <button onClick={() => setPeople([])}>Clear All</button>
         </section>
       </main>

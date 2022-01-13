@@ -1,3 +1,5 @@
+// this module basically shows how each tour will be represented
+// all data is imported in form of variables that can can be called for each tour
 import React, { useState } from "react";
 
 const Tour = ({ id, image, info, price, name, removeTour }) => {
@@ -17,6 +19,7 @@ const Tour = ({ id, image, info, price, name, removeTour }) => {
             {readMore ? "show less" : "read more"}
           </button>
         </p>
+        {/* removeTOur function is defined in App.js file */}
         <button className="delete-btn" onClick={() => removeTour(id)}>
           not interested
         </button>
