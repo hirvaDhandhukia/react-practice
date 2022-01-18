@@ -2,6 +2,7 @@ import './index.css';
 import Welcome from './components/Welcome'
 import WelcomeClass from './components/WelcomeClass';
 import Clock from './components/Clock';
+import ClockClass from './components/ClockClass';
 
 
 function formatName(user) {
@@ -24,6 +25,7 @@ function App() {
       {/* <WelcomeClass name="Yooooo" /> */}
 
       <Clock />
+      <ClockClass />
 
     </div>
   );
