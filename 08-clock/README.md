@@ -1,6 +1,9 @@
 # Clock
+press Fn+F11 for better view
 
-### `Live site: ` 
+
+### `Live site: ` https://clock-hirva.netlify.app
+<b>`Future release: ` </b> <span>Dark and Light themes.</span>
 
 ## Things i learned here
 1. props.toLocaleTimeString('en-US')
