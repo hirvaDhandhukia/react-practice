@@ -8,7 +8,7 @@ function Clock() {
     }
 
     useEffect(() => {
-        const timer = setInterval(reloadDate, 1000);
+        setInterval(reloadDate, 1000);
     }, [])
 
     return (
