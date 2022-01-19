@@ -7,8 +7,11 @@
 
 * {
     font-family: var(--ff-primary);
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     text-align: center;
+    /* background-color: #EAECEE; */
+    background-color: #F2F4F4;
+    color: #17202A;
 }
 
 /* .main {
@@ -23,5 +26,12 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background-color: blue;
+  /* background-color: blue; */
+}
+
+.main h1 {
+  font-size: 20vw;
+  /* margin: 0.375rem 0.75rem; */
+  /* display: inline-block; */
+  /* font-size: 4.5rem; */
 }
