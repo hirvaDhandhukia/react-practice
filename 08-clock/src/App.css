@@ -7,11 +7,12 @@
 
 * {
     font-family: var(--ff-primary);
-    /* text-transform: capitalize; */
     text-align: center;
-    /* background-color: #EAECEE; */
-    background-color: #F2F4F4;
-    color: #17202A;
+    /* text-transform: capitalize; */
+    /* background-color: #F2F4F4; */
+    /* color: #17202A; */
+    background-color: #FFFFFF;
+    color: #121212;
 }
 
 /* .main {
