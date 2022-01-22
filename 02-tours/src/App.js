@@ -21,6 +21,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [tours, setTours] = useState([]);
 
+  // arrow function for button removeing tour
   const removeTour = (id) => {
     // we will just return a new variable sending all tours except 
     // the tour's id that we want to remove. so it's not actually removed/deleted, 
@@ -33,10 +34,11 @@ function App() {
   // fetching the data from api in form of json and then using useState hook to show them
   const fetchTours = async () => {
     setLoading(true);
+    // try and catch to wait for response from api in json format. 
     try {
       const response = await fetch(url);
       const tours = await response.json();
-      setLoading(false);
+      setLoading(false); // making setLoadin false because we fetched the data into 'tours' variable
       setTours(tours);
     } catch (error) {
       setLoading(false);
