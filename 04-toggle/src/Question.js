@@ -19,3 +19,5 @@ const Question = ({title, info}) => {
 };
 
 export default Question;
+// changing the useState value when the button is clicked, 
+// and using conditional operator to toggle betn 2 btns of + and -

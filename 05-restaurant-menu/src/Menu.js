@@ -1,3 +1,4 @@
+// this module shows how each item from the 'menu' array will be viewed on frontend
 import React from 'react';
 
 const Menu = ({ items }) => {

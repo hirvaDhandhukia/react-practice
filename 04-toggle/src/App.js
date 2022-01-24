@@ -13,6 +13,7 @@ function App() {
         <section className="info">
           {
             // we mapped through the data array here so that we can iterate throgh them and print the output of questions
+            // we use key to help iterage through data, and use rest operator.
             questions.map((question) => {
               return <SingleQuestion key={question.id} {...question} />
             })

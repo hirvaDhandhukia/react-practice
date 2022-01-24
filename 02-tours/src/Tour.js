@@ -14,6 +14,10 @@ const Tour = ({ id, image, info, price, name, removeTour }) => {
           <h4 className="tour-price"> ${price} </h4>
         </div>
         <p>
+          {/* the info.substring(startindex, length) will return the 0 to 175 length's data.
+          show the readMore btn with info.
+          when readmore btn is clicked, the useState value changes with help of setReadMore function.
+          */}
           {readMore ? info : `${info.substring(0, 175)}...`}
           <button onClick={() => setReadMore(!readMore)}>
             {readMore ? "show less" : "read more"}
