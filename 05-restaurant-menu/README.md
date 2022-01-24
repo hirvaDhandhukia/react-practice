@@ -1,6 +1,6 @@
 # Restaurant Menu card
 
-### `Live site: `https://xkee7.csb.app/
+### `Live site: ` https://dine-out-hirva.netlify.app
 
 ## Things i learned here
 
