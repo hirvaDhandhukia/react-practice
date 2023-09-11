@@ -5,9 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
+  // which item to be rendered (i.e. App)
   <React.StrictMode>
     <App />
   </React.StrictMode>,
+  // where to be rendered i.e. at 'root' in the html file
   document.getElementById('root')
 );
 
